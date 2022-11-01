@@ -1,0 +1,9 @@
+.navbar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar-share{
+    margin-top: 20px;
+}

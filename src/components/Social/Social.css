@@ -1,0 +1,12 @@
+.social{
+    margin: 30px 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social img{
+    width: 40px;
+    margin: 0 15px;
+}

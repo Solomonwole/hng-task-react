@@ -1,0 +1,15 @@
+.profile-image img{
+    width: 88px;
+    height: 88px;
+    margin-bottom: 30px;
+}
+
+
+
+a{
+    color: #101828;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 28px;
+    text-decoration: none;
+}
