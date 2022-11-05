@@ -65,6 +65,9 @@ form .form__checkbox {
   align-items: center;
   margin: 20px 0;
 }
+form .form__checkbox input {
+  max-width: 10%;
+}
 form .form__checkbox label {
   color: #475467;
   margin-left: 10px;

@@ -70,8 +70,12 @@ form {
     flex-direction: column;
   }
   .form__checkbox {
+    input{
+        max-width: 10%;
+    }
     display: flex;
     align-items: center;
+    // align-items: center;
     margin: 20px 0;
    
     label {
