@@ -1,23 +1,21 @@
-import './App.css';
-import Navbar from './components/Navbar/Navbar'
-import Avatar from './components/Avatar/Avatar'
-import Link from './components/Links/Link'
-import Social from './components/Social/Social'
+import "./App.css";
+import Home from "./Home";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Contact from "./Contact";
 import './Container.css'
-import FooterSection from './components/Footer/FooterSection';
-
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header container">
-        <Navbar />
-        <Avatar/>
-        <Link/>
-        <Social/>
-       <FooterSection/>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <div className="App-header container">
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+        </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 
