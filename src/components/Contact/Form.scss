@@ -35,7 +35,7 @@ form {
     border-radius: 8px;
     margin: 10px 0;
     padding: 20px;
-    // font-size: 85%;
+    font-size: 85%;
     font-family: "Inter", sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -53,6 +53,8 @@ form {
     font-family: "Inter", sans-serif;
     color: $label_text;
   }
+
+
   .form__firstname {
     display: flex;
     flex-direction: column;
@@ -90,5 +92,24 @@ form {
   button{
     background: $button_color;
     color: #fff;
+    margin-bottom: 100px;
   }
+}
+
+
+// Responsiveness
+
+@media screen and (min-width: 768px) {
+    .firstandlast{
+        display: flex;
+        justify-content: space-between;
+        .form__firstname{
+            width: 50%;
+            margin-right: 10px;
+        }
+        .form__lastname{
+            width: 50%;
+            margin-left: 10px;
+        }
+    }
 }

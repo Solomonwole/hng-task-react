@@ -7,6 +7,7 @@ export default function Form() {
       <h1>Contact Me</h1>
       <p>Hi there, contact me to ask me about anything you have in mind.</p>
       <form>
+        <div className="firstandlast">
         <div className="form__firstname">
           <label>First Name</label>
           <input
@@ -23,6 +24,7 @@ export default function Form() {
             id="last_name"
             placeholder="Enter your last name"
           />
+        </div>
         </div>
 
         <div className="form__email">
