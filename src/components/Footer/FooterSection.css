@@ -40,12 +40,12 @@ hr{
     
     .footer-desktop p{
         font-weight: 400;
-        font-size: 60%;
+        font-size: 80%;
         margin: 20px 0;
     }
     
     .footer-desktop img{
-        width: 120px;
-        height: 32px;
+        width: 150px;
+        height: 38px;
     }
 }
