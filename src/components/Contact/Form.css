@@ -27,7 +27,7 @@ form input {
   border-radius: 8px;
   margin: 10px 0;
   padding: 20px;
-  font-size: 70%;
+  font-size: 85%;
   font-family: "Inter", sans-serif;
   transition: 0.5s;
 }
@@ -39,7 +39,7 @@ form textarea {
   border-radius: 8px;
   padding: 20px;
   margin: 10px 0;
-  font-size: 70%;
+  font-size: 85%;
   font-family: "Inter", sans-serif;
 }
 form .form__firstname {
@@ -62,9 +62,6 @@ form .form__checkbox {
   display: flex;
   align-items: center;
   margin: 20px 0;
-}
-form .form__checkbox input {
-  width: 25px;
 }
 form .form__checkbox label {
   color: #475467;
