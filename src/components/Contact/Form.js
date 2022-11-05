@@ -9,14 +9,21 @@ export default function Form() {
       <form>
         <div className="form__firstname">
           <label>First Name</label>
-          <input type="text" id="first_name" placeholder="Enter your first name" />
+          <input
+            type="text"
+            id="first_name"
+            placeholder="Enter your first name"
+          />
         </div>
 
         <div className="form__lastname">
           <label>Last Name</label>
-          <input type="text" id="last_name" placeholder="Enter your last name" />
+          <input
+            type="text"
+            id="last_name"
+            placeholder="Enter your last name"
+          />
         </div>
-        
 
         <div className="form__email">
           <label>Email</label>
@@ -25,16 +32,20 @@ export default function Form() {
 
         <div className="form__message">
           <label>Message</label>
-          <textarea id="message" rows='10' placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>
+          <textarea
+            id="message"
+            rows="10"
+            placeholder="Send me a message and I'll reply you as soon as possible..."
+          ></textarea>
         </div>
-      
+
         <div className="form__checkbox">
-          <input type="checkbox" />
           <label>
             You agree to providing your data to Solomonwole who may contact you.
           </label>
+          <input type="checkbox" />
         </div>
-        
+
         <button id="btn__submit">Send Message</button>
       </form>
     </div>

@@ -61,14 +61,18 @@ form .form__message {
   flex-direction: column;
 }
 form .form__checkbox {
+  position: relative;
   display: flex;
   align-items: center;
   margin: 20px 0;
 }
 form .form__checkbox input {
-  max-width: 10%;
+  position: absolute;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
 }
 form .form__checkbox label {
   color: #475467;
-  margin-left: 10px;
+  margin-left: 50px;
 }/*# sourceMappingURL=Form.css.map */

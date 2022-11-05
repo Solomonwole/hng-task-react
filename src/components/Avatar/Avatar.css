@@ -4,14 +4,15 @@
   margin-bottom: 30px;
 }
 
+.username {
+  text-align: center;
+}
+
 a {
   color: #101828;
   font-weight: 700;
   font-size: 100%;
   line-height: 28px;
   text-decoration: none;
-}
-
-p {
   text-align: center;
 }/*# sourceMappingURL=Avatar.css.map */
