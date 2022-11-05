@@ -4,7 +4,7 @@ import "./Form.css";
 export default function Form() {
   return (
     <div className="body">
-      <h1>Contact Me</h1>
+      <h1>Contact Me2</h1>
       <p>Hi there, contact me to ask me about anything you have in mind.</p>
       <form>
         <div className="firstandlast">
