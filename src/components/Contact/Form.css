@@ -30,6 +30,7 @@ form input {
   font-size: 85%;
   font-family: "Inter", sans-serif;
   transition: 0.5s;
+  color: #344054;
 }
 form input:focus {
   border: solid #fff 2px;
@@ -41,6 +42,7 @@ form textarea {
   margin: 10px 0;
   font-size: 85%;
   font-family: "Inter", sans-serif;
+  color: #344054;
 }
 form .form__firstname {
   display: flex;

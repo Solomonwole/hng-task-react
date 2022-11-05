@@ -39,6 +39,7 @@ form {
     font-family: "Inter", sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    color: $label_text;
   }
   input:focus {
     border: solid #fff 2px;
@@ -50,6 +51,7 @@ form {
     margin: 10px 0;
     font-size: 85%;
     font-family: "Inter", sans-serif;
+    color: $label_text;
   }
   .form__firstname {
     display: flex;
