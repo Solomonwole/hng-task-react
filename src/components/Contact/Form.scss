@@ -28,15 +28,22 @@ label{
 input{
     border: solid $border_color 2px;
     border-radius: 8px;
-    height: 40px;
     margin: 10px 0;
-    
+    padding: 20px;
+    font-size: 70%;
+    -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+input:focus{
+    border: solid #fff 2px;
 }
 textarea{
     border: solid $border_color 2px;
     border-radius: 8px;
-    height: 40px;
+    padding: 20px;
     margin: 10px 0;
+    font-size: 70%;
+    font-family: ;
 }
   .form__firstname{
   display: flex;

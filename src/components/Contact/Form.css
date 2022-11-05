@@ -20,14 +20,20 @@ form label {
 form input {
   border: solid #D0D5DD 2px;
   border-radius: 8px;
-  height: 40px;
   margin: 10px 0;
+  padding: 20px;
+  font-size: 70%;
+  transition: 0.5s;
+}
+form input:focus {
+  border: solid #fff 2px;
 }
 form textarea {
   border: solid #D0D5DD 2px;
   border-radius: 8px;
-  height: 40px;
+  padding: 20px;
   margin: 10px 0;
+  font-size: 70%;
 }
 form .form__firstname {
   display: flex;
