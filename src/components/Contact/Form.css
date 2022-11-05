@@ -1,11 +1,13 @@
 h1 {
   text-align: left;
   color: #101828;
+  margin: 20px 0;
 }
 
 p {
   text-align: left;
   color: #475467;
+  margin: 20px 0;
 }
 
 form {
@@ -13,27 +15,32 @@ form {
   flex-direction: column;
   width: 100%;
   text-align: left;
+  margin-top: 30px;
 }
 form label {
   color: #344054;
+  margin-top: 20px;
+  font-size: 95%;
 }
 form input {
-  border: solid #D0D5DD 2px;
+  border: solid #d0d5dd 2px;
   border-radius: 8px;
   margin: 10px 0;
   padding: 20px;
   font-size: 70%;
+  font-family: "Inter", sans-serif;
   transition: 0.5s;
 }
 form input:focus {
   border: solid #fff 2px;
 }
 form textarea {
-  border: solid #D0D5DD 2px;
+  border: solid #d0d5dd 2px;
   border-radius: 8px;
   padding: 20px;
   margin: 10px 0;
   font-size: 70%;
+  font-family: "Inter", sans-serif;
 }
 form .form__firstname {
   display: flex;

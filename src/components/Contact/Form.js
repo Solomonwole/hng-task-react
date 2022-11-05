@@ -3,7 +3,7 @@ import "./Form.css";
 
 export default function Form() {
   return (
-    <>
+    <div className="body">
       <h1>Contact Me</h1>
       <p>Hi there, contact me to ask me about anything you have in mind.</p>
       <form>
@@ -37,6 +37,6 @@ export default function Form() {
         
         <button id="btn__submit">Send Message</button>
       </form>
-    </>
+    </div>
   );
 }

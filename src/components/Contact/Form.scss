@@ -2,75 +2,81 @@ $black: #101828;
 $text_color: #475467;
 $label_text: #344054;
 $input_text: #667085;
-$border_color: #D0D5DD;
+$border_color: #d0d5dd;
 $checkbox_text: #475467;
-$button_color: #1570EF;
+$button_color: #1570ef;
 
 h1 {
   text-align: left;
   color: $black;
+  margin: 20px 0;
 }
 p {
   text-align: left;
   color: $text_color;
+  margin: 20px 0;
 }
 
 form {
- display: flex;
+  display: flex;
   flex-direction: column;
   width: 100%;
-text-align: left;
+  text-align: left;
+  margin-top: 30px;
 
-label{
+  label {
     color: $label_text;
-}
+    margin-top: 20px;
+    font-size: 95%;
+  }
 
-input{
+  input {
     border: solid $border_color 2px;
     border-radius: 8px;
     margin: 10px 0;
     padding: 20px;
     font-size: 70%;
+    font-family: "Inter", sans-serif;
     -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-input:focus{
+    transition: 0.5s;
+  }
+  input:focus {
     border: solid #fff 2px;
-}
-textarea{
+  }
+  textarea {
     border: solid $border_color 2px;
     border-radius: 8px;
     padding: 20px;
     margin: 10px 0;
     font-size: 70%;
-    font-family: ;
-}
-  .form__firstname{
-  display: flex;
-  flex-direction: column;
+    font-family: "Inter", sans-serif;
   }
-  .form__lastname{
-  display: flex;
-  flex-direction: column;
+  .form__firstname {
+    display: flex;
+    flex-direction: column;
   }
-  .form__email{
-  display: flex;
-  flex-direction: column;
+  .form__lastname {
+    display: flex;
+    flex-direction: column;
   }
-  .form__message{
-  display: flex;
-  flex-direction: column;
+  .form__email {
+    display: flex;
+    flex-direction: column;
   }
-  .form__checkbox{
+  .form__message {
+    display: flex;
+    flex-direction: column;
+  }
+  .form__checkbox {
     display: flex;
     align-items: center;
     margin: 20px 0;
-    input{
-        width: 25px;
+    input {
+      width: 25px;
     }
-    label{
-        color: $checkbox_text;
-        margin-left: 10px;
+    label {
+      color: $checkbox_text;
+      margin-left: 10px;
     }
   }
 }
