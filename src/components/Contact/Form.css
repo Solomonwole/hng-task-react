@@ -1,0 +1,59 @@
+h1 {
+  text-align: left;
+  color: #101828;
+}
+
+p {
+  text-align: left;
+  color: #475467;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+}
+form label {
+  color: #344054;
+}
+form input {
+  border: solid #D0D5DD 2px;
+  border-radius: 8px;
+  height: 40px;
+  margin: 10px 0;
+}
+form textarea {
+  border: solid #D0D5DD 2px;
+  border-radius: 8px;
+  height: 40px;
+  margin: 10px 0;
+}
+form .form__firstname {
+  display: flex;
+  flex-direction: column;
+}
+form .form__lastname {
+  display: flex;
+  flex-direction: column;
+}
+form .form__email {
+  display: flex;
+  flex-direction: column;
+}
+form .form__message {
+  display: flex;
+  flex-direction: column;
+}
+form .form__checkbox {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+form .form__checkbox input {
+  width: 25px;
+}
+form .form__checkbox label {
+  color: #475467;
+  margin-left: 10px;
+}/*# sourceMappingURL=Form.css.map */
