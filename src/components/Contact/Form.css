@@ -69,10 +69,13 @@ form .form__checkbox {
 form .form__checkbox input {
   position: absolute;
   cursor: pointer;
-  height: 25px;
-  width: 25px;
+  height: 15px;
+  width: 15px;
 }
 form .form__checkbox label {
   color: #475467;
   margin-left: 50px;
+}
+form button {
+  background: #1570ef;
 }/*# sourceMappingURL=Form.css.map */
