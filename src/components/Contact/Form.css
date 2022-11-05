@@ -27,7 +27,6 @@ form input {
   border-radius: 8px;
   margin: 10px 0;
   padding: 20px;
-  font-size: 85%;
   font-family: "Inter", sans-serif;
   transition: 0.5s;
   color: #344054;
@@ -62,6 +61,8 @@ form .form__message {
 }
 form .form__checkbox {
   position: relative;
+  display: flex;
+  align-items: center;
   margin: 20px 0;
 }
 form .form__checkbox input {
@@ -76,4 +77,5 @@ form .form__checkbox label {
 }
 form button {
   background: #1570ef;
+  color: #fff;
 }/*# sourceMappingURL=Form.css.map */
