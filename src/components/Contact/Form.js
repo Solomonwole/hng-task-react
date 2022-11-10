@@ -1,10 +1,11 @@
 import React from "react";
 import "./Form.css";
+import { Link } from 'react-router-dom';
 
-export default function Form() {
+function Form() {
   return (
     <div className="body">
-      <h1>Contact Me</h1>
+      <Link to='/'><h1>Contact Me</h1></Link>
       <p>Hi there, contact me to ask me about anything you have in mind.</p>
       <form>
         <div className="firstandlast">
@@ -53,3 +54,5 @@ export default function Form() {
     </div>
   );
 }
+
+export default Form;
