@@ -1,7 +1,8 @@
 import React from 'react'
 import './Link.css'
+import { Link } from "react-router-dom";
 
-function Link() {
+function Links () {
   return (
     <>
     <a href='https://twitter.com/tposhofficial' target='_blank>'>
@@ -22,9 +23,9 @@ function Link() {
     <a href='https://books.zuri.team/design-rules' target='_blank>'>
       <button id='book__design'>Design Books</button>
     </a>
-    <a href='/contact'>
+    <Link to='/contact'>
       <button id='contact'>Contact Me</button>
-    </a>
+    </Link>
     
    
     
@@ -32,4 +33,4 @@ function Link() {
   )
 }
 
-export default Link
+export default Links
